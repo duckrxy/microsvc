@@ -1,8 +1,8 @@
 'use strict';
-const express = require("express");
-const logger = require("morgan");
-const bodyParser = require("body-parser");
-const HeroRouter_1 = require("./routes/HeroRouter");
+const express = require('express');
+const logger = require('morgan');
+const bodyParser = require('body-parser');
+const HeroRouter_1 = require('./routes/HeroRouter');
 // Creates and configures an ExpressJS web server.
 class App {
     //Run configuration methods on the Express instance.
